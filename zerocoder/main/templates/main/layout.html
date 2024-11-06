@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main/css/main.css'%}">
+
+    {% block title %}
+
+    {% endblock %}
+
+</head>
+<body>
+{% include 'main/nav.html'%}
+{% block content %}
+     <div class="container">
+        <div class="row mt-4">
+            <aside class="col-md-3">
+                <div class="card">
+                    <img src="{% static 'main/image/m_a4b208e4.jpg' %}" class="card-img-top" alt="ballet">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ballet</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><a href="{% url 'home'%}">Main</a></li>
+                            <li class="list-group-item"><a href="{% url 'page2'%}">Second</a></li>
+                            <li class="list-group-item"><a href="{% url 'page3'%}">Page3</a></li>
+                            <li class="list-group-item"><a href="{% url 'page4'%}">Page4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <main class="col-md-9">
+                <!-- Содержимое основного раздела -->
+            </main>
+        </div>
+    </div>
+{% endblock %}
+
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3">
+        &copy; 2023 Мой веб-сайт. Все права защищены.
+    </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

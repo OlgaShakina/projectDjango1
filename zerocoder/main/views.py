@@ -2,13 +2,20 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
 def index(request):
-    return HttpResponse('<h1>Это первый проект</h1>')
+    data = {
+        'caption': "First page Ballet"
+    }
+    return render(request, 'main/index.html', data)
 
 def new(request):
-    return HttpResponse('<h1>Это вторая страница</h1>')
+    return render(request, 'main/new.html')
 
-def data(request):
-    return HttpResponse('<p>Здесь данные проекта</p>')
+def about(request):
+    return render(request, 'main/about.html')
 
-def test(request):
-    return HttpResponse('<h1>Тестировать проект</h1>')
+def contacts(request):
+    try:
+        return render(request, 'main/contacts.html')
+    except Exception as e:
+        return HttpResponse(f"Ошибка при загрузке шаблона: {e}")
+
