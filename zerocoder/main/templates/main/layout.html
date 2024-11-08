@@ -20,12 +20,13 @@
                     <img src="{% static 'main/image/m_a4b208e4.jpg' %}" class="card-img-top" alt="ballet">
                     <div class="card-body text-center">
                         <h5 class="card-title">Ballet</h5>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="{% url 'home'%}">Main</a></li>
-                            <li class="list-group-item"><a href="{% url 'page2'%}">Second</a></li>
-                            <li class="list-group-item"><a href="{% url 'page3'%}">Page3</a></li>
-                            <li class="list-group-item"><a href="{% url 'page4'%}">Page4</a></li>
-                        </ul>
+                        <nav class="list-group list-group-flush">
+                            <a class="nav-link" href="{% url 'home'%}">Main</a>
+                            <a class="nav-link" href="{% url 'page2'%}">Second</a>
+                            <a class="nav-link" href="{% url 'page3'%}">Page3</a>
+                            <a class="nav-link" href="{% url 'page4'%}">Page4</a>
+                            <a class="nav-link" href="{% url 'news_home'%}">News</a>
+                        </nav>
                     </div>
                 </div>
             </aside>

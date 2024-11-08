@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4195dd-834a-49e6-9272-7208b61f274a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/static/main/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/static/main/image/m_a4b208e4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerocoder/news/templates/news/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zerocoder/news/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zerocoder/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zerocoder/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zerocoder/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zerocoder/zerocoder/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/zerocoder/settings.py" afterDir="false" />
