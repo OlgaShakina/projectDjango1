@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4195dd-834a-49e6-9272-7208b61f274a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/zerocoder/news/templates/news/add_news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerocoder/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zerocoder/main/templates/main/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/main/templates/main/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zerocoder/news/templates/news/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/templates/news/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zerocoder/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerocoder/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerocoder/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerocoder/news/templates/news/add_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/templates/news/add_news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zerocoder/news/templates/news/create_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/templates/news/create_news.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zerocoder/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/zerocoder/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +61,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/zerocoder/news" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/zerocoder/main/static/main/image" />
       <recent name="$PROJECT_DIR$/zerocoder/main/static/main/css" />
     </key>

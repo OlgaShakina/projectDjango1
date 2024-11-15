@@ -1,5 +1,6 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import NewsPost
+from .forms import NewsPostForm
 
 # Create your views here.
 def home(request):
@@ -12,4 +13,13 @@ def news_detail(request, news_id):
 
 
 def create_news(request):
-    return render(request, 'news/add_news.html')
+    error = ""
+    if request.method == 'POST':
+        form = NewsPostForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('news_home')
+        else:
+            error = "Данные заполнены некорректно"
+    form = NewsPostForm()
+    return render(request, 'news/add_news.html', {'form': form, 'errors': error})
